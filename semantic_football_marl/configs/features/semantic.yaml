@@ -1,0 +1,12 @@
+# @package features
+name: "semantic"
+use_pitch_zones: true
+use_passing_corridors: true
+use_pressing_intensity: true
+use_relative_coordinates: true
+use_xg_proxy: true
+num_pitch_zones_x: 6
+num_pitch_zones_y: 3
+corridor_sample_points: 10
+opponent_influence_radius: 0.15
+include_raw_simple115: true

@@ -1,0 +1,19 @@
+# @package algo
+name: "mappo"
+lr_actor: 3.0e-4
+lr_critic: 1.0e-3
+gamma: 0.99
+gae_lambda: 0.95
+clip_param: 0.2
+ppo_epoch: 10
+num_mini_batch: 4
+entropy_coef: 0.01
+value_loss_coef: 0.5
+max_grad_norm: 0.5
+use_clipped_value_loss: true
+use_huber_loss: true
+huber_delta: 10.0
+use_orthogonal_init: true
+use_linear_lr_decay: true
+rollout_threads: 1
+episode_length: 200

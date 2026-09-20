@@ -1,0 +1,2 @@
+model_id,seed,opponent,n_matches,win_rate,draw_rate,loss_rate,goal_diff,tpca,obmq,pcr,cohen_kappa,ckpt_sha256,wandb_run_id,timestamp_utc
+M4_smoke,42,builtin_hard,10,0.0,1.0,0.0,0.0,1.0,5.0,0.503721541812977,-0.0011022092484946932,96abb561097030d2ac7f8e7ce80408271e8b66a76343de45420a3af29410eb4e,eval_M4_smoke_builtin_hard_seed42_1789859008,2026-09-19T23:03:28.781756+00:00

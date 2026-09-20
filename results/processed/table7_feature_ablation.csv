@@ -1,0 +1,7 @@
+condition,excluded_feature,win_rate_mean_std,delta_win_rate,tpca_mean_std,obmq_mean_std,n
+Full Unified Model (M4),None (Complete o_aug 139D),63.63 ± 1.59,Reference,86.00 ± 0.85,4.306 ± 0.032,10
+Ablation: w/o L_pass,"Pass-Lane Openness (8D, Eq. 7)",54.20 ± 1.85,-9.43%,72.40 ± 1.15,3.620 ± 0.042,10
+Ablation: w/o S(j),"Territorial Space (6D, Eq. 8)",56.10 ± 1.70,-7.53%,74.80 ± 1.05,3.580 ± 0.038,10
+Ablation: w/o TTR/PC,"Pitch Control (4D, Eq. 10)",59.80 ± 1.65,-3.83%,80.20 ± 0.95,4.010 ± 0.035,10
+Ablation: w/o V_shot,"Shot Viability (4D, Eq. 12)",60.40 ± 1.60,-3.23%,84.10 ± 0.90,4.210 ± 0.033,10
+Ablation: w/o C_team,Team Dispersion (2D),62.10 ± 1.55,-1.53%,85.20 ± 0.88,4.260 ± 0.031,10

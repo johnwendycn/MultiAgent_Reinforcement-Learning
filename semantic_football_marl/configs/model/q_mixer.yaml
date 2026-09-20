@@ -1,0 +1,10 @@
+# @package model
+name: "q_mixer"
+agent_q:
+  hidden_dims: [128, 64]
+  activation: "relu"
+  use_layer_norm: true
+mixer:
+  embed_dim: 32
+  hypernet_layers: 2
+  hypernet_embed: 64

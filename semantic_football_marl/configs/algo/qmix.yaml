@@ -1,0 +1,14 @@
+# @package algo
+name: "qmix"
+lr: 5.0e-4
+gamma: 0.99
+target_update_interval: 200
+buffer_size: 50000
+batch_size: 32
+epsilon_start: 1.0
+epsilon_finish: 0.05
+epsilon_anneal_time: 50000
+mixer_hidden_dim: 32
+hypernet_hidden_dim: 64
+max_grad_norm: 10.0
+double_q: true

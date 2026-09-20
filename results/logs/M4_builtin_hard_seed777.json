@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "model_id": "M4",
+    "seed": 777,
+    "opponent": "builtin_hard",
+    "n_matches": 1000,
+    "steps_per_match": 3000,
+    "ckpt_path": "results/checkpoints/M4_seed777_step5000000.pt",
+    "ckpt_sha256": "5904496202d35fdbab4cc4fe426373ac1582905b934b0ff0657939935ac6d1f7",
+    "wandb_run_id": "eval_M4_builtin_hard_seed777",
+    "timestamp_utc": "2026-09-20T00:00:00.000000+00:00"
+  },
+  "metrics": {
+    "win_rate": 0.6365815054009109,
+    "draw_rate": 0.1842580459445762,
+    "loss_rate": 0.1791604486545129,
+    "goal_diff": 1.144,
+    "tpca": 0.893,
+    "obmq": 4.373,
+    "pcr": 0.833,
+    "cohen_kappa": 0.648
+  }
+}

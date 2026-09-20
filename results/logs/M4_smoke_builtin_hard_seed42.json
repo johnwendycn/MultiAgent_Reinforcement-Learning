@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "model_id": "M4_smoke",
+    "seed": 42,
+    "opponent": "builtin_hard",
+    "n_matches": 10,
+    "steps_per_match": 3000,
+    "ckpt_path": "results/checkpoints/M4_smoke_seed42_step10000.pt",
+    "ckpt_sha256": "96abb561097030d2ac7f8e7ce80408271e8b66a76343de45420a3af29410eb4e",
+    "wandb_run_id": "eval_M4_smoke_builtin_hard_seed42_1789859008",
+    "timestamp_utc": "2026-09-19T23:03:28.781756+00:00"
+  },
+  "metrics": {
+    "win_rate": {
+      "mean": 0.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "draw_rate": {
+      "mean": 1.0,
+      "ci_95": [
+        1.0,
+        1.0
+      ]
+    },
+    "loss_rate": {
+      "mean": 0.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "goal_diff": {
+      "mean": 0.0,
+      "ci_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "tpca": {
+      "mean": 1.0,
+      "ci_95": [
+        1.0,
+        1.0
+      ]
+    },
+    "obmq": {
+      "mean": 5.0,
+      "ci_95": [
+        5.0,
+        5.0
+      ]
+    },
+    "pcr": {
+      "mean": 0.503721541812977,
+      "ci_95": [
+        0.47899983737029855,
+        0.5296396507277745
+      ]
+    },
+    "cohen_kappa": -0.0011022092484946932
+  }
+}

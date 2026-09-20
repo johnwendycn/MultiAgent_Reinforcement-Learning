@@ -1,0 +1,5 @@
+model_id,configuration,record_wdl,win_rate_mean_std,goal_diff_mean_std,pass_comp_mean_std,tpca_mean_std,obmq_mean_std,cohen_kappa_mean_std,n
+M1,M1: Control Baseline (Raw + Sparse),40.9 / 17.6 / 41.5%,40.86 ± 1.43,-0.02 ± 0.07,71.5 ± 2.7,69.7 ± 2.1,3.495 ± 0.069,0.663 ± 0.038,10
+M2,M2: Reward-Only (Raw + PBRS),50.5 / 18.0 / 31.5%,50.47 ± 1.64,+0.47 ± 0.08,82.3 ± 1.9,70.0 ± 2.5,3.492 ± 0.080,0.663 ± 0.034,10
+M3,M3: Rep-Only (Semantic + Sparse),56.6 / 18.1 / 25.3%,56.64 ± 1.64,+0.78 ± 0.09,71.5 ± 1.5,84.5 ± 1.7,4.285 ± 0.116,0.652 ± 0.028,10
+M4,M4: Unified Framework (Semantic + PBRS),63.6 / 17.6 / 18.7%,63.63 ± 1.59,+1.12 ± 0.08,82.5 ± 2.1,86.0 ± 2.0,4.306 ± 0.108,0.651 ± 0.039,10

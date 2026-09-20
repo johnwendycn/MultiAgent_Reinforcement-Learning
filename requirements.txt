@@ -1,0 +1,38 @@
+# Pinned exact versions matching Python 3.13 and CUDA 12.1
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+torchaudio==2.5.1+cu121
+
+# Core Scientific Computing & Data Processing (Python 3.13 Compatible)
+numpy==2.1.3
+scipy==1.14.1
+pandas==2.2.3
+scikit-learn==1.5.2
+
+# Visualization & Plotting
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Reinforcement Learning & Multi-Agent Environments
+gymnasium==0.29.1
+pettingzoo==1.24.3
+shimmy==1.3.0
+
+# Google Research Football
+gfootball==2.9
+
+# Football Data Analysis
+statsbombpy==1.16.0
+
+# Experiment Tracking & MLOps
+wandb==0.19.11
+
+# Configuration Management (Hydra & OmegaConf with explicit ANTLR lock for instant installation)
+antlr4-python3-runtime==4.9.3
+omegaconf==2.3.0
+hydra-core==1.3.2
+
+# Tensor Operations & Architecture Helpers
+einops==0.8.0

@@ -1,0 +1,42 @@
+# @package _global_
+defaults:
+  - _self_
+  - env: grf_academy_3v1
+  - algo: mappo
+  - model: actor_critic
+  - features: semantic
+  - rewards: dense_semantic
+  - experiment: null
+
+project_name: "semantic_football_marl"
+run_name: "marl_run"
+seed: 42
+device: "cuda"
+dry_run: false
+
+# Directory configuration (relative or absolute)
+paths:
+  root_dir: "."
+  results_dir: "results"
+  raw_eval_dir: "results/raw"
+  processed_dir: "results/processed"
+  figures_dir: "results/figures"
+  checkpoints_dir: "results/checkpoints"
+  logs_dir: "results/logs"
+
+# Training loop parameters
+training:
+  total_timesteps: 2000000
+  log_interval_steps: 10000
+  checkpoint_interval_steps: 50000
+  eval_interval_steps: 25000
+  num_eval_episodes: 20
+  save_checkpoints: true
+
+# Weights & Biases configuration
+wandb:
+  enabled: false
+  entity: null
+  project: "semantic-football-marl"
+  group: "academy-experiments"
+  tags: ["marl", "grf", "mappo"]

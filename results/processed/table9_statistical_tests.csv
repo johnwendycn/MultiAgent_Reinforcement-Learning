@@ -1,0 +1,6 @@
+comparison,delta_win_rate,t_statistic,p_value,cohen_d,significance,n
+M4 vs. M1 (Unified vs. Control),+22.77 ± 1.62,32.35,< 0.0001,+15.08,Significant (p < 0.001),10
+M4 vs. M2 (Unified vs. Reward-Only),+13.16 ± 1.65,18.15,< 0.0001,+8.14,Significant (p < 0.001),10
+M4 vs. M3 (Unified vs. Rep-Only),+6.99 ± 1.68,9.68,< 0.0001,+4.33,Significant (p < 0.001),10
+M4 vs. QMIX (Unified vs. Monotonic),+15.38 ± 2.10,18.22,< 0.0001,+8.13,Significant (p < 0.001),10
+M4 vs. GNN-MARL (Unified vs. Graph),+5.23 ± 1.95,6.78,< 0.0001,+3.03,Significant (p < 0.001),10

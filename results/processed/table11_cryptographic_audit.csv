@@ -1,0 +1,5 @@
+model_id,seeds_evaluated,matches_per_seed,win_rate_mean_std,goal_diff_mean_std,representative_sha256,full_sha256,wandb_group,n
+M1,10 independent seeds,1000,40.86 ± 1.43,-0.02 ± 0.07,48994de9f072da3e...ca77d749,48994de9f072da3ed0a669fc0a5ef9e80ee348ff0ba54363b9b7e342ca77d749,eval_benchmark_M1,10
+M2,10 independent seeds,1000,50.47 ± 1.64,+0.47 ± 0.08,4f03b1d1c1be74d8...1fadf44c,4f03b1d1c1be74d875e50b66c13be791d00275b03e0f6d831f70c7a61fadf44c,eval_benchmark_M2,10
+M3,10 independent seeds,1000,56.64 ± 1.64,+0.78 ± 0.09,0397440dcb216f84...6d668c3a,0397440dcb216f8453f3b8089ada2726327d03cbb352937bb63f3f086d668c3a,eval_benchmark_M3,10
+M4,10 independent seeds,1000,63.63 ± 1.59,+1.12 ± 0.08,93b1e8f8269a5cec...dc89b95b,93b1e8f8269a5cece4d07e21f5038904e31ff3b8d63d37523c47e1bfdc89b95b,eval_benchmark_M4,10

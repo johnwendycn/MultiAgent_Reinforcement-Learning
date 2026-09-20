@@ -1,0 +1,7 @@
+condition,w_obv,w_space,win_rate_mean_std,tpca_mean_std,obmq_mean_std,observed_dynamics,n
+Calibrated Baseline,0.2,0.15,63.63 ± 1.59,86.00 ± 0.85,4.306 ± 0.032,Balanced penetration and off-ball spatial overloads,10
+High Threat (+50%),0.3,0.15,62.10 ± 1.75,83.40 ± 1.10,4.150 ± 0.038,Slight forward bias; occasional premature penetrative passes,10
+Low Threat (-50%),0.1,0.15,58.40 ± 1.95,81.20 ± 1.25,4.220 ± 0.036,Excessive lateral recycling; delayed attacking transitions,10
+High Space (+50%),0.2,0.225,62.80 ± 1.65,85.10 ± 0.95,4.350 ± 0.034,Effective spatial dispersion; slightly conservative final ball,10
+Low Space (-50%),0.2,0.075,59.10 ± 1.80,80.60 ± 1.15,3.980 ± 0.040,Central congestion; attackers fail to stretch opposing block,10
+Zero PBRS (Unshaped),0.0,0.0,56.64 ± 1.64,84.48 ± 0.95,4.285 ± 0.038,Accurate representations but sluggish exploration (Model M3),10

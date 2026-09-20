@@ -1,0 +1,3 @@
+run_id,final_win_rate,avg_goals,avg_xg,avg_possession,episodes_evaluated
+exp01_baseline_mappo,1.0,1.0,0.45,65.0,1
+exp02_semantic_mappo,1.0,2.0,0.72,75.0,1

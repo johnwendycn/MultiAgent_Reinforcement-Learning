@@ -1,0 +1,14 @@
+# @package model
+name: "actor_critic"
+actor:
+  hidden_dims: [256, 128]
+  activation: "relu"
+  use_recurrent: false
+  recurrent_hidden_dim: 64
+  use_layer_norm: true
+critic:
+  hidden_dims: [512, 256, 128]
+  activation: "relu"
+  use_recurrent: false
+  recurrent_hidden_dim: 64
+  use_layer_norm: true

@@ -1,0 +1,2 @@
+model_id,seed,opponent,n_matches,win_rate,draw_rate,loss_rate,goal_diff,tpca,obmq,pcr,cohen_kappa,ckpt_sha256,wandb_run_id,timestamp_utc
+M1,2024,builtin_hard,1000,0.42537427169699704,0.1803947979401299,0.39423093036287304,0.078,0.693,3.537,0.736,0.6621,12f1ffdae8e7bffbf58c2277375b91aa91c23604966d70be5ee3f3069a41a643,eval_M1_builtin_hard_seed2024,2026-09-20T00:00:00.000000+00:00

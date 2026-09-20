@@ -1,0 +1,5 @@
+episode_idx,run_id,checkpoint_step,scenario,outcome,goals_home,goals_away,episode_length,cumulative_reward,passes_attempted,passes_completed,shots,xg_sum,home_possession_pct,timestamp_utc
+1,exp01_baseline_mappo,0,academy_3_vs_1_with_keeper,LOSS,0,1,150,-1.0,2,1,0,0.05,45.0,2026-09-19T10:00:00Z
+2,exp01_baseline_mappo,50000,academy_3_vs_1_with_keeper,WIN,1,0,80,1.0,3,3,1,0.45,65.0,2026-09-19T10:05:00Z
+1,exp02_semantic_mappo,0,academy_3_vs_1_with_keeper,LOSS,0,1,140,-0.8,2,1,0,0.08,48.0,2026-09-19T10:10:00Z
+2,exp02_semantic_mappo,50000,academy_3_vs_1_with_keeper,WIN,2,0,65,5.4,4,4,2,0.72,75.0,2026-09-19T10:15:00Z

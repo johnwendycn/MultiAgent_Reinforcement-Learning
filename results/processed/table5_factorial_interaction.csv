@@ -1,0 +1,4 @@
+contrast,delta_mean_std,bootstrap_se,ci_95,p_value,cohen_d,n
+Main Effect: Semantic Representation (M3+M4 vs M1+M2),+0.1447 ± 0.0071,0.00712,"[+0.1308, +0.1587]",< 0.0001,+9.18,10
+Main Effect: PBRS Shaping (M2+M4 vs M1+M3),+0.0830 ± 0.0069,0.00688,"[+0.0695, +0.0965]",< 0.0001,+5.27,10
+2x2 Factorial Interaction: (M4 - M3) - (M2 - M1),-0.0262 ± 0.0095,0.00946,"[-0.0442, -0.0073]",0.0072,-1.66,10

@@ -1,0 +1,34 @@
+﻿# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments & IDEs
+.env
+.venv
+env/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Excluded per user instructions: manuscript files, docx files, and manuscript generation scripts
+*.docx
+~$*.docx
+manuscript*
+MANUSCRIPT*
+IEEE_Access*
+scripts/build_docx_manuscript.py
+scripts/build_ieee_access_paper.py
+scratch/
+
+# Developer build/update scripts
+append_step7.py
+append_step8.py
+build_notebook.py
+update_and_run_notebook.py
+update_step8_math.py
