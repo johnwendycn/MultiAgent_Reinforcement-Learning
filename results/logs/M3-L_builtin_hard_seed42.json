@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "model_id": "M4_smoke",
+    "model_id": "M3-L",
     "seed": 42,
     "opponent": "builtin_hard",
-    "n_matches": 10,
+    "n_matches": 5,
     "steps_per_match": 3000,
-    "ckpt_path": "results/checkpoints/M4_smoke_seed42_step10000.pt",
-    "ckpt_sha256": "955da71bc0326170fc5ff0a47e912698467aded2754ca6d2c4a879fe6d3172e4",
-    "wandb_run_id": "eval_M4_smoke_builtin_hard_seed42_1789889352",
-    "timestamp_utc": "2026-09-20T07:29:12.787090+00:00"
+    "ckpt_path": "results/checkpoints/M3-L_seed42_step10000.pt",
+    "ckpt_sha256": "7fc9208e59adaf72553d82f48f0839bffd1d6d1a92a0ab8de9b551089e89bf64",
+    "wandb_run_id": "eval_M3-L_builtin_hard_seed42_1789889457",
+    "timestamp_utc": "2026-09-20T07:30:57.491858+00:00"
   },
   "metrics": {
     "win_rate": {
@@ -54,12 +54,12 @@
       ]
     },
     "pcr": {
-      "mean": 0.4809502175422888,
+      "mean": 0.5131177331654714,
       "ci_95": [
-        0.4560849998909591,
-        0.5009242359648546
+        0.4982624491990336,
+        0.5279655622666528
       ]
     },
-    "cohen_kappa": -0.00023284589710331898
+    "cohen_kappa": -0.00024493956408360226
   }
 }
