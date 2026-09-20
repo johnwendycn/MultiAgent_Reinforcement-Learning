@@ -20,6 +20,8 @@ Thumbs.db
 # Excluded per user instructions: manuscript files, docx files, and manuscript generation scripts
 *.docx
 ~$*.docx
+*.tmp
+~*
 manuscript*
 MANUSCRIPT*
 IEEE_Access*
